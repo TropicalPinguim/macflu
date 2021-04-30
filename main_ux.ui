@@ -26,7 +26,7 @@
    <string>Calculadora de Hidralica e Pneumatica</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(111, 137, 162)</string>
+   <string notr="true">background-color: rgb(38, 38, 38);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QComboBox" name="comboBox">
@@ -39,9 +39,9 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">selection-background-color: rgb(197, 231, 241);
-selection-color: rgb(50, 65, 79);
-color: rgb(197, 231, 241);</string>
+     <string notr="true">selection-background-color: rgb(13, 13, 13);
+selection-color: rgb(89, 89, 89);
+color: rgb(242, 242, 242);</string>
     </property>
    </widget>
    <widget class="QPushButton" name="bt_01">
@@ -54,7 +54,8 @@ color: rgb(197, 231, 241);</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(197, 231, 241);</string>
+     <string notr="true">color: rgb(242, 242, 242);
+background-color: rgb(242, 188, 27);</string>
     </property>
     <property name="text">
      <string>OK</string>
@@ -73,7 +74,7 @@ color: rgb(197, 231, 241);</string>
      <enum>Qt::DefaultContextMenu</enum>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(121, 206, 237);</string>
+     <string notr="true">background-color: rgb(166, 166, 166);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -98,7 +99,7 @@ color: rgb(197, 231, 241);</string>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">color: rgb(50, 65, 79);</string>
+      <string notr="true">color: rgb(38, 38, 38);</string>
      </property>
      <property name="text">
       <string>O Diametro interno é: </string>
@@ -127,7 +128,8 @@ color: rgb(197, 231, 241);</string>
       <bool>false</bool>
      </property>
      <property name="styleSheet">
-      <string notr="true">color: rgb(50, 65, 79);</string>
+      <string notr="true">color: rgb(242, 242, 242);
+background-color: rgb(242, 188, 27);</string>
      </property>
      <property name="inputMethodHints">
       <set>Qt::ImhNone</set>
@@ -162,7 +164,7 @@ color: rgb(197, 231, 241);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(50, 65, 79);</string>
+       <string notr="true">color: rgb(38, 38, 38);</string>
       </property>
       <property name="text">
        <string>10</string>
@@ -207,7 +209,7 @@ color: rgb(197, 231, 241);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(50, 65, 79);</string>
+       <string notr="true">color: rgb(38, 38, 38);</string>
       </property>
       <property name="text">
        <string>5</string>
@@ -258,7 +260,7 @@ color: rgb(197, 231, 241);</string>
        <string/>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(50, 65, 79);selection-background-color: rgb(111, 137, 162); border: 0px;</string>
+       <string notr="true">color: rgb(242, 188, 27);selection-background-color: rgb(111, 137, 162); border: 0px;</string>
       </property>
       <property name="inputMask">
        <string/>
@@ -287,7 +289,7 @@ color: rgb(197, 231, 241);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(50, 65, 79);</string>
+       <string notr="true">color: rgb(38, 38, 38);</string>
       </property>
       <property name="text">
        <string>*</string>
@@ -316,7 +318,7 @@ color: rgb(197, 231, 241);</string>
        <string/>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(50, 65, 79);selection-background-color: rgb(111, 137, 162);border: 0px;</string>
+       <string notr="true">color: rgb(242, 188, 27);selection-background-color: rgb(111, 137, 162);border: 0px;</string>
       </property>
       <property name="text">
        <string>P</string>
@@ -342,7 +344,7 @@ color: rgb(197, 231, 241);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(50, 65, 79);</string>
+       <string notr="true">color: rgb(38, 38, 38);</string>
       </property>
       <property name="text">
        <string>d</string>
@@ -368,7 +370,7 @@ color: rgb(197, 231, 241);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(50, 65, 79);</string>
+       <string notr="true">color: rgb(38, 38, 38);</string>
       </property>
       <property name="text">
        <string>=</string>
@@ -391,7 +393,7 @@ color: rgb(197, 231, 241);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(50, 65, 79);</string>
+       <string notr="true">color: rgb(38, 38, 38);</string>
       </property>
       <property name="text">
        <string>1,6663785 * 10  *</string>
@@ -414,7 +416,7 @@ color: rgb(197, 231, 241);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(50, 65, 79);</string>
+       <string notr="true">color: rgb(38, 38, 38);</string>
       </property>
       <property name="text">
        <string>-3</string>
@@ -443,7 +445,7 @@ color: rgb(197, 231, 241);</string>
        <string/>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(50, 65, 79);selection-background-color: rgb(111, 137, 162);
+       <string notr="true">color: rgb(242, 188, 27);selection-background-color: rgb(111, 137, 162);
  border: 0px;</string>
       </property>
       <property name="text">
@@ -470,7 +472,7 @@ color: rgb(197, 231, 241);</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(50, 65, 79);selection-background-color: rgb(111, 137, 162);
+       <string notr="true">color: rgb(242, 188, 27);selection-background-color: rgb(111, 137, 162);
 border: 0px;</string>
       </property>
       <property name="text">
@@ -497,7 +499,7 @@ border: 0px;</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(50, 65, 79);</string>
+       <string notr="true">color: rgb(38, 38, 38);</string>
       </property>
       <property name="text">
        <string>1.85</string>
@@ -520,7 +522,7 @@ border: 0px;</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(50, 65, 79);</string>
+       <string notr="true">color: rgb(38, 38, 38);</string>
       </property>
       <property name="text">
        <string>*</string>
@@ -559,7 +561,7 @@ border: 0px;</string>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">color: rgb(50, 65, 79);</string>
+      <string notr="true">color: rgb(38, 38, 38);</string>
      </property>
      <property name="text">
       <string>Q = Vazão em  m  /h</string>
@@ -582,7 +584,7 @@ border: 0px;</string>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">color: rgb(50, 65, 79);</string>
+      <string notr="true">color: rgb(38, 38, 38);</string>
      </property>
      <property name="text">
       <string>3</string>
@@ -605,7 +607,7 @@ border: 0px;</string>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">color: rgb(50, 65, 79);</string>
+      <string notr="true">color: rgb(38, 38, 38);</string>
      </property>
      <property name="text">
       <string>Lt = Comprimento total da tubulação em metros</string>
@@ -628,7 +630,7 @@ border: 0px;</string>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">color: rgb(50, 65, 79);</string>
+      <string notr="true">color: rgb(38, 38, 38);</string>
      </property>
      <property name="text">
       <string>delta P = Queda de pressão adimisivel em Kgf/cm</string>
@@ -651,7 +653,7 @@ border: 0px;</string>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">color: rgb(50, 65, 79);</string>
+      <string notr="true">color: rgb(38, 38, 38);</string>
      </property>
      <property name="text">
       <string>2</string>
@@ -674,7 +676,7 @@ border: 0px;</string>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">color: rgb(50, 65, 79);</string>
+      <string notr="true">color: rgb(38, 38, 38);</string>
      </property>
      <property name="text">
       <string>P =pressão de trabalhol em Kgf/cm</string>
@@ -697,7 +699,7 @@ border: 0px;</string>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">color: rgb(50, 65, 79);</string>
+      <string notr="true">color: rgb(38, 38, 38);</string>
      </property>
      <property name="text">
       <string>2</string>
@@ -720,7 +722,7 @@ border: 0px;</string>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">color: rgb(50, 65, 79);</string>
+      <string notr="true">color: rgb(38, 38, 38);</string>
      </property>
      <property name="text">
       <string>d = diametro interno em milimetros</string>
@@ -737,7 +739,7 @@ border: 0px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 85, 0);</string>
+     <string notr="true">background-color: rgb(38, 38, 38);</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -760,7 +762,14 @@ border: 0px;</string>
      <height>21</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(242, 188, 27);</string>
+   </property>
    <widget class="QMenu" name="menuArquivo">
+    <property name="styleSheet">
+     <string notr="true">color: rgb(242, 188, 27);
+</string>
+    </property>
     <property name="title">
      <string>Arquivo</string>
     </property>
@@ -769,8 +778,17 @@ border: 0px;</string>
    <addaction name="menuArquivo"/>
   </widget>
   <action name="actionSalvar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
    <property name="text">
     <string>Salvar</string>
+   </property>
+   <property name="autoRepeat">
+    <bool>true</bool>
+   </property>
+   <property name="visible">
+    <bool>true</bool>
    </property>
   </action>
  </widget>

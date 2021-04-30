@@ -60,11 +60,7 @@ def option_select():
     if text == "tela 2":
         screen.tela_1.close()
         screen.tela_2.show()
-        screen.vazao.setText("Q")
-        screen.comprimento.setText("Lt")
-        screen.lineEdit_3.setText("delta P")
-        screen.lineEdit_4.setText("P")
-        screen.label.setText(f'O Diametro interno é:')
+
 
 
 def screen_offs():
